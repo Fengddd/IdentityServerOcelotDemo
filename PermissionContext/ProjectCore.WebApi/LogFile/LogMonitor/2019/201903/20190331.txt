@@ -1,0 +1,2568 @@
+
+ 
+记录时间：2019-03-31 16:10:43,248 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:  
+  视图:Token    
+    开始时间：GetSignatureToken   
+      结束时间：2019-03-31 16:09:28
+      总 时 间：2019-03-31 16:09:57秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:36:14,993 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:35:29   
+      结束时间：2019-03-31 17:35:42
+      总 时 间：00:00:12.5010000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:40:50,402 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:40:03   
+      结束时间：2019-03-31 17:40:10
+      总 时 间：00:00:07.7032000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:46:44,352 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:46:39   
+      结束时间：2019-03-31 17:46:44
+      总 时 间：00:00:04.9995000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:58:23,313 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:58:00   
+      结束时间：2019-03-31 17:58:08
+      总 时 间：00:00:07.8130000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:58:40,539 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:58:28   
+      结束时间：2019-03-31 17:58:40
+      总 时 间：00:00:12.2887000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 17:58:53,141 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 17:58:43   
+      结束时间：2019-03-31 17:58:53
+      总 时 间：00:00:09.3977000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:45:51,447 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:45:21   
+      结束时间：2019-03-31 21:45:27
+      总 时 间：00:00:05.6421000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:33,798 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:26   
+      结束时间：2019-03-31 21:58:30
+      总 时 间：00:00:04.3584000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:36,303 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:36   
+      结束时间：2019-03-31 21:58:36
+      总 时 间：00:00:00.0695000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:36,939 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:36   
+      结束时间：2019-03-31 21:58:36
+      总 时 间：00:00:00.0758000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:37,157 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:37   
+      结束时间：2019-03-31 21:58:37
+      总 时 间：00:00:00.0735000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:37,365 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:37   
+      结束时间：2019-03-31 21:58:37
+      总 时 间：00:00:00.0897000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:37,535 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:37   
+      结束时间：2019-03-31 21:58:37
+      总 时 间：00:00:00.0777000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:37,757 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:37   
+      结束时间：2019-03-31 21:58:37
+      总 时 间：00:00:00.0786000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:37,908 
+线程ID:[13] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:37   
+      结束时间：2019-03-31 21:58:37
+      总 时 间：00:00:00.0823000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:38,239 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:38   
+      结束时间：2019-03-31 21:58:38
+      总 时 间：00:00:00.0866000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:38,446 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:38   
+      结束时间：2019-03-31 21:58:38
+      总 时 间：00:00:00.0735000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:38,664 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:38   
+      结束时间：2019-03-31 21:58:38
+      总 时 间：00:00:00.0835000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:38,853 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:38   
+      结束时间：2019-03-31 21:58:38
+      总 时 间：00:00:00.0781000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:39,040 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:38   
+      结束时间：2019-03-31 21:58:39
+      总 时 间：00:00:00.0791000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:39,248 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:39   
+      结束时间：2019-03-31 21:58:39
+      总 时 间：00:00:00.1032000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:39,444 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:39   
+      结束时间：2019-03-31 21:58:39
+      总 时 间：00:00:00.0708000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:39,589 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:39   
+      结束时间：2019-03-31 21:58:39
+      总 时 间：00:00:00.0814000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:39,795 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:39   
+      结束时间：2019-03-31 21:58:39
+      总 时 间：00:00:00.0877000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,007 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:39   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0932000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,248 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:40   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0961000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,441 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:40   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0871000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,576 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:40   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0713000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,778 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:40   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0852000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:40,960 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:40   
+      结束时间：2019-03-31 21:58:40
+      总 时 间：00:00:00.0702000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:41,178 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:41   
+      结束时间：2019-03-31 21:58:41
+      总 时 间：00:00:00.0685000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:41,411 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:41   
+      结束时间：2019-03-31 21:58:41
+      总 时 间：00:00:00.0945000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:41,595 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:41   
+      结束时间：2019-03-31 21:58:41
+      总 时 间：00:00:00.0767000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:46,164 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:46
+      总 时 间：00:00:00.0699000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:46,384 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:46
+      总 时 间：00:00:00.0809000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:46,562 
+线程ID:[13] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:46
+      总 时 间：00:00:00.1112000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:46,724 
+线程ID:[13] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:46
+      总 时 间：00:00:00.0986000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:46,862 
+线程ID:[13] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:46
+      总 时 间：00:00:00.0844000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:47,079 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:46   
+      结束时间：2019-03-31 21:58:47
+      总 时 间：00:00:00.1202000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 21:58:47,360 
+线程ID:[10] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 21:58:47   
+      结束时间：2019-03-31 21:58:47
+      总 时 间：00:00:00.1162000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:29,517 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:29   
+      结束时间：2019-03-31 22:12:29
+      总 时 间：00:00:00.3518000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:29,517 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:29   
+      结束时间：2019-03-31 22:12:29
+      总 时 间：00:00:00.3517000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:29,517 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:29   
+      结束时间：2019-03-31 22:12:29
+      总 时 间：00:00:00.3517000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:29,517 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:29   
+      结束时间：2019-03-31 22:12:29
+      总 时 间：00:00:00.3518000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:29,517 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:29   
+      结束时间：2019-03-31 22:12:29
+      总 时 间：00:00:00.3518000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:31,187 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:31   
+      结束时间：2019-03-31 22:12:31
+      总 时 间：00:00:00.0933000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:31,436 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:31   
+      结束时间：2019-03-31 22:12:31
+      总 时 间：00:00:00.0888000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:31,751 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:31   
+      结束时间：2019-03-31 22:12:31
+      总 时 间：00:00:00.1110000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:31,926 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:31   
+      结束时间：2019-03-31 22:12:31
+      总 时 间：00:00:00.0996000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,108 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.0971000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,311 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.0942000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,463 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.0856000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,633 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.1046000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,783 
+线程ID:[16] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.0820000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:32,957 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:32   
+      结束时间：2019-03-31 22:12:32
+      总 时 间：00:00:00.1133000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:33,127 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:33   
+      结束时间：2019-03-31 22:12:33
+      总 时 间：00:00:00.1024000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:33,303 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:33   
+      结束时间：2019-03-31 22:12:33
+      总 时 间：00:00:00.1116000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:33,462 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:33   
+      结束时间：2019-03-31 22:12:33
+      总 时 间：00:00:00.0889000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:12:33,615 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:12:33   
+      结束时间：2019-03-31 22:12:33
+      总 时 间：00:00:00.0903000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:13:32,926 
+线程ID:[19] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:13:32   
+      结束时间：2019-03-31 22:13:32
+      总 时 间：00:00:00.0936000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:13:39,083 
+线程ID:[18] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:13:39   
+      结束时间：2019-03-31 22:13:39
+      总 时 间：00:00:00.0797000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:13:39,698 
+线程ID:[19] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:13:39   
+      结束时间：2019-03-31 22:13:39
+      总 时 间：00:00:00.0836000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:16:27,864 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:16:27   
+      结束时间：2019-03-31 22:16:27
+      总 时 间：00:00:00.1142000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:16:31,188 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:16:31   
+      结束时间：2019-03-31 22:16:31
+      总 时 间：00:00:00.1262000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:16:32,225 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:16:32   
+      结束时间：2019-03-31 22:16:32
+      总 时 间：00:00:00.0895000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:16:32,979 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:16:32   
+      结束时间：2019-03-31 22:16:32
+      总 时 间：00:00:00.0899000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:12,216 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:12   
+      结束时间：2019-03-31 22:36:12
+      总 时 间：00:00:00.1321000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:32,206 
+线程ID:[14] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:32   
+      结束时间：2019-03-31 22:36:32
+      总 时 间：00:00:00.1033000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:33,124 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:33   
+      结束时间：2019-03-31 22:36:33
+      总 时 间：00:00:00.0938000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:33,898 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:33   
+      结束时间：2019-03-31 22:36:33
+      总 时 间：00:00:00.0997000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:34,783 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:34   
+      结束时间：2019-03-31 22:36:34
+      总 时 间：00:00:00.1015000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:35,525 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:35   
+      结束时间：2019-03-31 22:36:35
+      总 时 间：00:00:00.0813000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:36,219 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:36   
+      结束时间：2019-03-31 22:36:36
+      总 时 间：00:00:00.0836000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:36,904 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:36   
+      结束时间：2019-03-31 22:36:36
+      总 时 间：00:00:00.1027000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:37,620 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:37   
+      结束时间：2019-03-31 22:36:37
+      总 时 间：00:00:00.1017000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:38,187 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:38   
+      结束时间：2019-03-31 22:36:38
+      总 时 间：00:00:00.0867000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:38,833 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:38   
+      结束时间：2019-03-31 22:36:38
+      总 时 间：00:00:00.0984000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:39,440 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:39   
+      结束时间：2019-03-31 22:36:39
+      总 时 间：00:00:00.0844000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:40,038 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:39   
+      结束时间：2019-03-31 22:36:40
+      总 时 间：00:00:00.0853000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:40,640 
+线程ID:[14] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:40   
+      结束时间：2019-03-31 22:36:40
+      总 时 间：00:00:00.0974000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:41,277 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:41   
+      结束时间：2019-03-31 22:36:41
+      总 时 间：00:00:00.0991000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:41,929 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:41   
+      结束时间：2019-03-31 22:36:41
+      总 时 间：00:00:00.1101000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:42,544 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:42   
+      结束时间：2019-03-31 22:36:42
+      总 时 间：00:00:00.0947000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:43,132 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:43   
+      结束时间：2019-03-31 22:36:43
+      总 时 间：00:00:00.0962000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:43,718 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:43   
+      结束时间：2019-03-31 22:36:43
+      总 时 间：00:00:00.0927000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:44,266 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:44   
+      结束时间：2019-03-31 22:36:44
+      总 时 间：00:00:00.0977000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:45,005 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:44   
+      结束时间：2019-03-31 22:36:45
+      总 时 间：00:00:00.0918000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:45,839 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:45   
+      结束时间：2019-03-31 22:36:45
+      总 时 间：00:00:00.0885000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:46,515 
+线程ID:[15] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:46   
+      结束时间：2019-03-31 22:36:46
+      总 时 间：00:00:00.0937000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:47,001 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:46   
+      结束时间：2019-03-31 22:36:47
+      总 时 间：00:00:00.0957000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 22:36:48,296 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 22:36:48   
+      结束时间：2019-03-31 22:36:48
+      总 时 间：00:00:00.0953000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:27,514 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:27   
+      结束时间：2019-03-31 23:02:27
+      总 时 间：00:00:00.3076000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:27,514 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:27   
+      结束时间：2019-03-31 23:02:27
+      总 时 间：00:00:00.3076000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:27,515 
+线程ID:[12] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:27   
+      结束时间：2019-03-31 23:02:27
+      总 时 间：00:00:00.3076000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:29,512 
+线程ID:[16] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:29   
+      结束时间：2019-03-31 23:02:29
+      总 时 间：00:00:00.1379000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:29,755 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:29   
+      结束时间：2019-03-31 23:02:29
+      总 时 间：00:00:00.1497000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:29,960 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:29   
+      结束时间：2019-03-31 23:02:29
+      总 时 间：00:00:00.1634000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:30,269 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:30   
+      结束时间：2019-03-31 23:02:30
+      总 时 间：00:00:00.1420000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:30,538 
+线程ID:[11] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:30   
+      结束时间：2019-03-31 23:02:30
+      总 时 间：00:00:00.1468000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:31,308 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:31   
+      结束时间：2019-03-31 23:02:31
+      总 时 间：00:00:00.1116000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:32,111 
+线程ID:[19] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:31   
+      结束时间：2019-03-31 23:02:32
+      总 时 间：00:00:00.1113000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:33,011 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:32   
+      结束时间：2019-03-31 23:02:33
+      总 时 间：00:00:00.1377000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:33,690 
+线程ID:[7] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:33   
+      结束时间：2019-03-31 23:02:33
+      总 时 间：00:00:00.1168000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:34,376 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:34   
+      结束时间：2019-03-31 23:02:34
+      总 时 间：00:00:00.1368000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:34,993 
+线程ID:[6] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:34   
+      结束时间：2019-03-31 23:02:34
+      总 时 间：00:00:00.1077000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-03-31 23:02:35,683 
+线程ID:[16] 
+日志级别：  ERROR 
+跟踪描述：
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-03-31 23:02:35   
+      结束时间：2019-03-31 23:02:35
+      总 时 间：00:00:00.1069000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in C:\Users\lIFeng\Desktop\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()

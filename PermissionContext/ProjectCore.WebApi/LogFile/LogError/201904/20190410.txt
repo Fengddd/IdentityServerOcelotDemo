@@ -1,0 +1,148 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-04-10 17:06:27,705                                   
+【线程编号】[6]                                   
+【执行时间】[11304]毫秒                                   
+【出错文件】?                                   
+【出错行号】?                                   
+【出错的类】NETCorelog4net 属性[(null)]                                   
+【错误描述】
+ 控制器:  
+  视图:    
+    开始时间：0001/1/1 0:00:00   
+      结束时间：0001/1/1 0:00:00
+      总 时 间：00:00:00秒                                   
+【错误详情】
+System.InvalidOperationException: Unable to resolve service for type 'ProjectCore.Common.Event.IEventBus' while attempting to activate 'ProjectCore.WebApi.Controllers.TokenController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-04-10 17:06:38,580                                   
+【线程编号】[11]                                   
+【执行时间】[22179]毫秒                                   
+【出错文件】?                                   
+【出错行号】?                                   
+【出错的类】NETCorelog4net 属性[(null)]                                   
+【错误描述】
+ 控制器:  
+  视图:    
+    开始时间：0001/1/1 0:00:00   
+      结束时间：0001/1/1 0:00:00
+      总 时 间：00:00:00秒                                   
+【错误详情】
+System.InvalidOperationException: Unable to resolve service for type 'ProjectCore.Common.Event.IEventBus' while attempting to activate 'ProjectCore.WebApi.Controllers.TokenController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-04-10 17:06:39,155                                   
+【线程编号】[12]                                   
+【执行时间】[22754]毫秒                                   
+【出错文件】?                                   
+【出错行号】?                                   
+【出错的类】NETCorelog4net 属性[(null)]                                   
+【错误描述】
+ 控制器:  
+  视图:    
+    开始时间：0001/1/1 0:00:00   
+      结束时间：0001/1/1 0:00:00
+      总 时 间：00:00:00秒                                   
+【错误详情】
+System.InvalidOperationException: Unable to resolve service for type 'ProjectCore.Common.Event.IEventBus' while attempting to activate 'ProjectCore.WebApi.Controllers.TokenController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-04-10 17:06:39,667                                   
+【线程编号】[11]                                   
+【执行时间】[23267]毫秒                                   
+【出错文件】?                                   
+【出错行号】?                                   
+【出错的类】NETCorelog4net 属性[(null)]                                   
+【错误描述】
+ 控制器:  
+  视图:    
+    开始时间：0001/1/1 0:00:00   
+      结束时间：0001/1/1 0:00:00
+      总 时 间：00:00:00秒                                   
+【错误详情】
+System.InvalidOperationException: Unable to resolve service for type 'ProjectCore.Common.Event.IEventBus' while attempting to activate 'ProjectCore.WebApi.Controllers.TokenController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-04-10 22:52:21,440                                   
+【线程编号】[7]                                   
+【执行时间】[42784]毫秒                                   
+【出错文件】?                                   
+【出错行号】?                                   
+【出错的类】NETCorelog4net 属性[(null)]                                   
+【错误描述】
+ 控制器:Token  
+  视图:GetSignatureToken    
+    开始时间：2019-04-10 22:52:03   
+      结束时间：2019-04-10 22:52:21
+      总 时 间：00:00:17.7137000秒                                   
+【错误详情】
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SingleOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at ProjectCore.Infrastructure.Repository.BaseRepository`1.WhereLoadEntityAsNoTrackingAsync(Expression`1 where) in F:\ProjectCore\Project.Infrastructure.Repository\BaseRepository.cs:line 229
+   at ProjectCore.Domain.DomainService.LoginDomainService.VerificationUserLogin(String username, String password) in F:\ProjectCore\ProjectCore.Domain.DomainService\LoginDomainService.cs:line 40
+   at ProjectCore.Application.AppUser.LoginService.VerificationUserLogin(UserModelDto input) in F:\ProjectCore\Project.Application\AppUser\LoginService.cs:line 34
+   at ProjectCore.WebApi.Controllers.TokenController.GetSignatureToken(UserModelDto input) in F:\ProjectCore\ProjectCore.WebApi\Controllers\TokenController.cs:line 53
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1,State:0,Class:20

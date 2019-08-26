@@ -1,0 +1,120 @@
+
+ 
+记录时间：2019-08-24 16:49:21,871 
+线程ID:[14] 
+日志级别：  ERROR 
+日志描述：
+ 控制器:User  
+  视图:GetUserList    
+    开始时间：2019/8/24 16:49:21   
+      结束时间：2019/8/24 16:49:21
+      总 时 间：00:00:00.1134000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.UserController.GetUserList(SearchUserDto input) in C:\Users\xique\source\repos\Fengddd\ProjectCore\PermissionContext\ProjectCore.WebApi\Controllers\UserController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-08-24 16:49:25,512 
+线程ID:[14] 
+日志级别：  ERROR 
+日志描述：
+ 控制器:User  
+  视图:GetUserList    
+    开始时间：2019/8/24 16:49:25   
+      结束时间：2019/8/24 16:49:25
+      总 时 间：00:00:00.0400000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.UserController.GetUserList(SearchUserDto input) in C:\Users\xique\source\repos\Fengddd\ProjectCore\PermissionContext\ProjectCore.WebApi\Controllers\UserController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-08-24 16:49:26,370 
+线程ID:[11] 
+日志级别：  ERROR 
+日志描述：
+ 控制器:User  
+  视图:GetUserList    
+    开始时间：2019/8/24 16:49:26   
+      结束时间：2019/8/24 16:49:26
+      总 时 间：00:00:00.0397000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.UserController.GetUserList(SearchUserDto input) in C:\Users\xique\source\repos\Fengddd\ProjectCore\PermissionContext\ProjectCore.WebApi\Controllers\UserController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-08-24 16:49:27,031 
+线程ID:[11] 
+日志级别：  ERROR 
+日志描述：
+ 控制器:User  
+  视图:GetUserList    
+    开始时间：2019/8/24 16:49:26   
+      结束时间：2019/8/24 16:49:27
+      总 时 间：00:00:00.0392000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.UserController.GetUserList(SearchUserDto input) in C:\Users\xique\source\repos\Fengddd\ProjectCore\PermissionContext\ProjectCore.WebApi\Controllers\UserController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+
+ 
+记录时间：2019-08-24 16:49:27,616 
+线程ID:[11] 
+日志级别：  ERROR 
+日志描述：
+ 控制器:User  
+  视图:GetUserList    
+    开始时间：2019/8/24 16:49:27   
+      结束时间：2019/8/24 16:49:27
+      总 时 间：00:00:00.0378000秒
+ 
+System.DivideByZeroException: Attempted to divide by zero.
+   at ProjectCore.WebApi.Controllers.UserController.GetUserList(SearchUserDto input) in C:\Users\xique\source\repos\Fengddd\ProjectCore\PermissionContext\ProjectCore.WebApi\Controllers\UserController.cs:line 36
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
